@@ -111,24 +111,24 @@
       <g
          id="g330">
         <path
-           style="fill:#ffffff"
+           style="fill:#ffffff; stroke:#000000; stroke-width:1; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none;"
            d="M198.6,131.3h-6V31.9h8.5l29.8,83.9V31.9h6v99.4h-7.2l-31.1-88.6V131.3z"
            id="path332" />
         <path
-           style="fill:#ffffff"
-           d="M281.1,77.9v6h-27.1v41.5h32.7v6h-39.2V31.9h39.2v6h-32.7v40H281.1z"
+          style="fill:#ffffff; stroke:#000000; stroke-width:1; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none;"
+          d="M281.1,77.9v6h-27.1v41.5h32.7v6h-39.2V31.9h39.2v6h-32.7v40H281.1z"
            id="path335" />
         <path
-           style="fill:#ffffff"
-           d="M321.8,85l-20.2,46.3h-6.4l22.4-51.5l-20.9-47.8h6.8l18.7,42.7l18.9-42.7h6.2l-20.9,47.8l22.3,51.5h-7 L321.8,85z"
+          style="fill:#ffffff; stroke:#000000; stroke-width:1; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none;"
+          d="M321.8,85l-20.2,46.3h-6.4l22.4-51.5l-20.9-47.8h6.8l18.7,42.7l18.9-42.7h6.2l-20.9,47.8l22.3,51.5h-7 L321.8,85z"
            id="path337" />
         <path
-           style="fill:#ffffff"
-           d="M364.5,107.3c0,10.6,4,18.9,14.9,18.9s14.9-8.2,14.9-18.9V31.9h6.1V107c0,14.2-6,25.1-21.2,25.1 c-15.2,0-21.3-10.9-21.3-25.1V31.9h6.5V107.3z"
+          style="fill:#ffffff; stroke:#000000; stroke-width:1; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none;"
+          d="M364.5,107.3c0,10.6,4,18.9,14.9,18.9s14.9-8.2,14.9-18.9V31.9h6.1V107c0,14.2-6,25.1-21.2,25.1 c-15.2,0-21.3-10.9-21.3-25.1V31.9h6.5V107.3z"
            id="path340" />
         <path
-           style="fill:#ffffff"
-           d="M452.8,55.9v2.1h-6.2v-2.6c0-10.5-4-18.5-14.8-18.5c-10.8,0-14.8,7.8-14.8,18.3c0,24.1,35.9,24.6,35.9,52 c0,14.3-6.2,24.8-21.4,24.8s-21.4-10.5-21.4-24.8v-5.1h6.2v5.5c0,10.6,4.1,18.3,15,18.3s15-7.7,15-18.3c0-23.9-35.9-24.3-35.9-52 c0-14.9,6.5-24.6,21.2-24.7C446.7,31.1,452.8,41.6,452.8,55.9z"
+          style="fill:#ffffff; stroke:#000000; stroke-width:1; stroke-linejoin:round; stroke-miterlimit:4; stroke-dasharray:none;"
+          d="M452.8,55.9v2.1h-6.2v-2.6c0-10.5-4-18.5-14.8-18.5c-10.8,0-14.8,7.8-14.8,18.3c0,24.1,35.9,24.6,35.9,52 c0,14.3-6.2,24.8-21.4,24.8s-21.4-10.5-21.4-24.8v-5.1h6.2v5.5c0,10.6,4.1,18.3,15,18.3s15-7.7,15-18.3c0-23.9-35.9-24.3-35.9-52 c0-14.9,6.5-24.6,21.2-24.7C446.7,31.1,452.8,41.6,452.8,55.9z"
            id="path342" />
         <path
 		style="fill: #E6832B;"
