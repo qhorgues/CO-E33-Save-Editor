@@ -45,8 +45,10 @@ fs.writeFileSync(path.join(buildDir, 'PKGBUILD'), pkgbuildContent);
 
 console.log('AUR packages created successfully to '+buildDir);
 
-if (process.platform === 'win32') {
-  process.exit(0); 
+// Only proceed with zip creation on Linux (AUR packages are Linux-specific)
+if (process.platform !== 'linux') {
+  console.log('Skipping zip creation on non-Linux platform');
+  process.exit(0);
 }
 
 try {
