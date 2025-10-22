@@ -28,6 +28,8 @@ jobs:
             args: ''
           - platform: 'windows-latest'
             args: ''
+          - platform: 'macos-latest'
+            args: '--target universal-apple-darwin'
 
     runs-on: ${{ matrix.platform }}
     steps:
@@ -82,6 +84,16 @@ jobs:
         with:
           name: CO-E33_Save_Editorv${{ steps.tauri-action.outputs.appVersion }}
           path: src-tauri/target/release/*.exe
+          retention-days: 1
+          overwrite: true
+          if-no-files-found: error
+
+      - name: upload artifact macOS
+        if: matrix.platform == 'macos-latest'
+        uses: actions/upload-artifact@v4
+        with:
+          name: CO-E33_Save_Editor-macOS-v${{ steps.tauri-action.outputs.appVersion }}
+          path: src-tauri/target/universal-apple-darwin/release/bundle/dmg/*.dmg
           retention-days: 1
           overwrite: true
           if-no-files-found: error

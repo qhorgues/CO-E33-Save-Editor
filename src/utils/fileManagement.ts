@@ -5,6 +5,7 @@ import { basename, join, appLocalDataDir } from '@tauri-apps/api/path'
 import type { SaveProcessResult, OpenProcessResult } from '../types/fileTypes'
 import { trace, error } from '@tauri-apps/plugin-log'
 import { invoke } from '@tauri-apps/api/core'
+import { platform } from '@tauri-apps/plugin-os'
 
 // Constants for configuration
 const SAVE_HANDLING_DIR_NAME = 'data' // Directory within appLocalDataDir for backups and temp files
@@ -15,15 +16,21 @@ const SAVE_HANDLING_DIR_NAME = 'data' // Directory within appLocalDataDir for ba
  */
 export async function handleSaveFileAndExtractToJson(savefilepath?: string): Promise<OpenProcessResult> {
   try {
-    const originalSavPath = savefilepath || await open({
+    // On macOS, wildcard '*' extension filter doesn't work (Tauri issue #11499).
+    // We use explicit 'sav' extension on macOS, which works correctly.
+    // On Windows/Linux, we use the '*' filter to accept .sav and extensionless files.
+    const currentPlatform = platform()
+    const dialogOptions: Parameters<typeof open>[0] = {
       multiple: false,
       filters: [
         {
           name: 'Save File',
-          extensions: ['*'], // Accepts .sav and files with no extension
+          extensions: currentPlatform === 'macos' ? ['sav'] : ['*'],
         },
       ],
-    })
+    }
+
+    const originalSavPath = savefilepath || await open(dialogOptions)
 
     if (!originalSavPath) {
       return {
