@@ -346,6 +346,7 @@ def genmanordoormapping():
         "ManorDoors": []
     }
     files = ["DJBE7GX6HAETWSRXO6OFRJUAA","8IRVA8RSVAKD8FH2T72N3ATWP"]
+    # those are the files pre update, they no longer match the correct ones, but shouldn't be a problem since they didn't add manor doors
     for file in files:
         inputmanorelements = f"originalGameMapping/levels/Manor/{file}.json" #unpublished files that are too big
         with open(inputmanorelements, "r", encoding="utf-8") as f:
