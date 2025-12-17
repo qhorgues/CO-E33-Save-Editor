@@ -118,6 +118,19 @@
         "ITEM_Sidaro_Name": "Sidaro",
         "ITEM_Monocaro_Name": "Monocaro",
         "ITEM_Simoso_Name": "Simoso",
+        "ITEM_VD_Verso_1_Name": "Sucreso",
+        "ITEM_VD_Verso_2_Name": "Esquiso",
+        "ITEM_VD_Maelle_1_Name": "Licorum",
+        "ITEM_VD_Maelle_2_Name": "Esqium",
+        "ITEM_VD_Lune_1_Name": "Bonbim",
+        "ITEM_VD_Lune_2_Name": "Esquim",
+        "ITEM_VD_Lune_3_Name": "Cleim",
+        "ITEM_VD_Monoco_1_Name": "Cannaro",
+        "ITEM_VD_Monoco_2_Name": "Esquiaro",
+        "ITEM_VD_Monoco_3_Name": "Baguettaro",
+        "ITEM_VD_Sciel_1_Name": "Sucetton",
+        "ITEM_VD_Sciel_2_Name": "Esquion",
+        "ITEM_VD_Sciel_3_Name": "Duollison",
         "ITEM_LostGestral_Name": "Lost Gestral",
         "ITEM_FestivalToken_Name": "Festival Token",
         "ITEM_Quest_MoltenHeart_Name": "Molten Heart",
@@ -139,6 +152,9 @@
         "ITEM_Quest_FlowerforSophie_Name": "A flower for Sophie",
         "ITEM_Quest_UniformForSon_Name": "A uniform for Richard's son",
         "ITEM_Quest_ApprenticesJournal_Name": "A journal from Gustave's apprentices",
+        "ITEM_Quest_CakePiece_Name": "Piece of Cake",
+        "ITEM_Quest_BirthdayCake_Name": "Birthday Cake",
+        "ITEM_Quest_ToyBoat_Name": "Toy Boat",
         "ITEM_SkinGustave_Default_Name": "Expedition",
         "ITEM_SkinLune_Default_Name": "Expedition",
         "ITEM_SkinMaelle_Default_Name": "Expedition",
@@ -290,6 +306,59 @@
         "ITEM_FaceMaelle_Baguette_Name": "Baguette",
         "ITEM_FaceSciel_Baguette_Name": "Baguette",
         "ITEM_FaceLune_Baguette_Name": "Baguette",
+        "ITEM_SkinSciel_Chic_Name": "Chic",
+        "ITEM_SkinLune_Chic_Name": "Chic",
+        "ITEM_SkinMaelle_Chic_Name": "Chic",
+        "ITEM_SkinVerso_Chic_Name": "Chic",
+        "ITEM_SkinGustave_Chic_Name": "Chic",
+        "ITEM_SkinMonoco_Chic_Name": "Chic",
+        "ITEM_FaceSciel_Chic_Name": "Chic",
+        "ITEM_FaceLune_Chic_Name": "Chic",
+        "ITEM_FaceMaelle_Chic_Name": "Chic",
+        "ITEM_FaceVerso_Chic_Name": "Chic",
+        "ITEM_FaceMonoco_Chic_Name": "Chic",
+        "ITEM_FaceGustave_Chic_Name": "Chic",
+        "ITEM_FaceSciel_DoubleBun_Long_Name": "Long Double Bun",
+        "ITEM_FaceSciel_DoubleBun_Name": "Double Bun",
+        "ITEM_FaceLune_DoubleBun_Long_Name": "Long Double Bun",
+        "ITEM_FaceLune_DoubleBun_Name": "Double Bun",
+        "ITEM_FaceMaelle_DoubleBun_Long_Name": "Long Double Bun",
+        "ITEM_FaceMaelle_DoubleBun_Name": "Double Bun",
+        "ITEM_FaceVerso_BunBraid_Name": "Bun Braid",
+        "ITEM_FaceGustave_BunBraid_Name": "Bun Braid",
+        "ITEM_FaceMonoco_FrenchBob_Name": "French Bob",
+        "ITEM_FaceMonoco_DoubleBun_Name": "Double Bun",
+        "ITEM_FaceLune_Simon_Name": "Simon",
+        "ITEM_FaceSciel_Simon_Name": "Simon",
+        "ITEM_FaceMaelle_Simon_Name": "Simon",
+        "ITEM_FaceVerso_Simon_Name": "Simon",
+        "ITEM_FaceGustave_Simon_Name": "Simon",
+        "ITEM_SkinLune_Esquie_Name": "Esquie",
+        "ITEM_SkinSciel_Esquie_Name": "Esquie",
+        "ITEM_SkinGustave_Esquie_Name": "Esquie",
+        "ITEM_SkinVerso_Esquie_Name": "Esquie",
+        "ITEM_SkinMaelle_Esquie_Name": "Esquie",
+        "ITEM_SkinMonoco_Esquie_Name": "Esquie",
+        "ITEM_SkinLune_Osquio_Name": "Osquio",
+        "ITEM_SkinSciel_Osquio_Name": "Osquio",
+        "ITEM_SkinGustave_Osquio_Name": "Osquio",
+        "ITEM_SkinVerso_Osquio_Name": "Osquio",
+        "ITEM_SkinMaelle_Osquio_Name": "Osquio",
+        "ITEM_SkinMonoco_Osquio_Name": "Osquio",
+        "ITEM_SkinMonoco_Baguette_Name": "Baguette",
+        "ITEM_SkinVerso_MaskKeeper_Name": "Mask Keeper",
+        "ITEM_FaceLune_Esquie_Name": "Esquie",
+        "ITEM_FaceSciel_Esquie_Name": "Esquie",
+        "ITEM_FaceGustave_Esquie_Name": "Esquie",
+        "ITEM_FaceVerso_Esquie_Name": "Esquie",
+        "ITEM_FaceMaelle_Esquie_Name": "Esquie",
+        "ITEM_FaceMonoco_Esquie_Name": "Esquie",
+        "ITEM_FaceLune_Osquio_Name": "Osquio",
+        "ITEM_FaceSciel_Osquio_Name": "Osquio",
+        "ITEM_FaceGustave_Osquio_Name": "Osquio",
+        "ITEM_FaceVerso_Osquio_Name": "Osquio",
+        "ITEM_FaceMaelle_Osquio_Name": "Osquio",
+        "ITEM_FaceMonoco_Osquio_Name": "Osquio",
         "ITEM_Consumable_Health_Level0_Name": "Small Healing Tint",
         "ITEM_Consumable_Health_Level1_Name": "Healing Tint",
         "ITEM_Consumable_Health_Level2_Name": "Strong Healing Tint",
@@ -467,6 +536,9 @@
         "ITEM_Quest_CleaWorkshop_Part3_Description": "A lamp that can be used to awaken the beast.",
         "ITEM_Quest_WeirdPictos_Name": "Weird Pictos",
         "ITEM_Quest_WeirdPictos_Description": "A quick inspection is enough to say that this Pictos is unusable as is.",
+        "ITEM_Quest_CakePiece_Description": "A piece of cake, gifted by an ancient gestral.",
+        "ITEM_Quest_BirthdayCake_Description": "With the pieces assembled, you now hold a beautiful birthday cake.",
+        "ITEM_Quest_ToyBoat_Description": "A pirate ship that was lost at sea.",
         "ITEM_SkinGustave_Default_Description": "An outfit for Gustave.",
         "ITEM_SkinLune_Default_Description": "An outfit for Lune.",
         "ITEM_SkinMaelle_Default_Description": "An outfit for Maelle.",
@@ -1099,6 +1171,45 @@
         },
         "ITEM_Simoso_Name": {
           "Context": "\"so\" is the suffix for Verso's Weapons\nReference to Simon (end game boss)"
+        },
+        "ITEM_VD_Verso_1_Name": {
+          "Context": "\"so\" is the suffix for Verso's Weapons\nSucre = sweet in French"
+        },
+        "ITEM_VD_Verso_2_Name": {
+          "Context": "\"so\" is the suffix for Verso's Weapons\nEsquie + So"
+        },
+        "ITEM_VD_Maelle_1_Name": {
+          "Context": "\"um\" is the suffix for Maelle's weapons\nLicorne + suffix"
+        },
+        "ITEM_VD_Maelle_2_Name": {
+          "Context": "\"um\" is the suffix for Maelle's weapons\nEsquie + suffix"
+        },
+        "ITEM_VD_Lune_1_Name": {
+          "Context": "\"im\" is the suffix for Lune's weapons\nBonbon (candy in french) + suffix"
+        },
+        "ITEM_VD_Lune_2_Name": {
+          "Context": "\"im\" is the suffix for Lune's weapons\nEsquie + suffix"
+        },
+        "ITEM_VD_Lune_3_Name": {
+          "Context": "\"im\" is the suffix for Lune's weapons\nclea + suffix"
+        },
+        "ITEM_VD_Monoco_1_Name": {
+          "Context": "\"aro\" is the suffix for Monoco's weapons\nCanne (Cane in French) + suffix"
+        },
+        "ITEM_VD_Monoco_2_Name": {
+          "Context": "\"aro\" is the suffix for Monoco's weapons\nEsquie + suffix"
+        },
+        "ITEM_VD_Monoco_3_Name": {
+          "Context": "\"aro\" is the suffix for Monoco's weapons\nbaguette + suffix"
+        },
+        "ITEM_VD_Sciel_1_Name": {
+          "Context": "\"on\" is the suffix for Sciel's weapons\nSucette (lolipop in French) + Suffix"
+        },
+        "ITEM_VD_Sciel_2_Name": {
+          "Context": "\"on\" is the suffix for Sciel's weapons\nEsquie + Suffix"
+        },
+        "ITEM_VD_Sciel_3_Name": {
+          "Context": "\"on\" is the suffix for Sciel's weapons\nDuolliste + Suffix"
         },
         "ITEM_SkinVerso_Baguette_Name": {
           "Context": "French stereotype skin with a baguette in the back"

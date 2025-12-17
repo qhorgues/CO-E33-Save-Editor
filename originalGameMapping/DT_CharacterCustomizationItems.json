@@ -5168,7 +5168,7 @@
         "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
         "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
         "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
-          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Maelle_Skin_Default.T_UI_Maelle_Skin_Default",
+          "AssetPathName": "/Game/Gameplay/Inventory/Data/T_Inventory_MissingItem.T_Inventory_MissingItem",
           "SubPathString": ""
         },
         "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
@@ -5206,7 +5206,7 @@
         "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
         "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
         "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
-          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_Short.T_UI_Maelle_Hair_Short",
+          "AssetPathName": "/Game/Gameplay/Inventory/Data/T_Inventory_MissingItem.T_Inventory_MissingItem",
           "SubPathString": ""
         },
         "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
@@ -7042,8 +7042,8 @@
       "FaceMonoco_Pure": {
         "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_Pure",
         "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
-          "Namespace": "",
-          "Key": "15B8D61642A79E7E3FB732971AD2063A",
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_Pure_Name",
           "SourceString": "Pure",
           "LocalizedString": "Pure"
         },
@@ -7378,6 +7378,2382 @@
         "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
           "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMaelle_Lumiere'",
           "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMaelle_Lumiere.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinLune_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinLune_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinLune_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Lune_Skin_Chic.T_UI_Lune_Skin_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinLune_FlowerSuit_Description",
+          "SourceString": "An outfit for Lune.",
+          "LocalizedString": "An outfit for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinLune_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinLune_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMaelle_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMaelle_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_Chic.T_UI_Maelle_Hair_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBraid_Description",
+          "SourceString": "A haircut for Maelle.",
+          "LocalizedString": "A haircut for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMaelle_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMaelle_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceVerso_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceVerso_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Verso_Hair_Chic.T_UI_Verso_Hair_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Samourai_Description",
+          "SourceString": "A haircut for Verso.",
+          "LocalizedString": "A haircut for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceVerso_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceVerso_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceGustave_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceGustave_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Gustave_Hair_Chic.T_UI_Gustave_Hair_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Flowers_Description",
+          "SourceString": "A haircut for Gustave.",
+          "LocalizedString": "A haircut for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceGustave_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceGustave_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceSciel_DoubleBun_Long": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceSciel_DoubleBun_Long",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_DoubleBun_Long_Name",
+          "SourceString": "Long Double Bun",
+          "LocalizedString": "Long Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Sciel_Hair_DoubleBunLong.T_UI_Sciel_Hair_DoubleBunLong",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Flowers_Description",
+          "SourceString": "A haircut for Sciel.",
+          "LocalizedString": "A haircut for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceSciel_DoubleBunLong'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceSciel_DoubleBunLong.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceSciel_DoubleBun": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceSciel_DoubleBun",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_DoubleBun_Name",
+          "SourceString": "Double Bun",
+          "LocalizedString": "Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Sciel_Hair_DoubleBun.T_UI_Sciel_Hair_DoubleBun",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Flowers_Description",
+          "SourceString": "A haircut for Sciel.",
+          "LocalizedString": "A haircut for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceSciel_DoubleBun'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceSciel_DoubleBun.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceLune_DoubleBun_Long": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceLune_DoubleBun_Long",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_DoubleBun_Long_Name",
+          "SourceString": "Long Double Bun",
+          "LocalizedString": "Long Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Lune_Hair_DoubleBunLong.T_UI_Lune_Hair_DoubleBunLong",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Braid_Description",
+          "SourceString": "A haircut for Lune.",
+          "LocalizedString": "A haircut for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceLune_DoubleBunLong'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceLune_DoubleBunLong.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceLune_DoubleBun": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceLune_DoubleBun",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_DoubleBun_Name",
+          "SourceString": "Double Bun",
+          "LocalizedString": "Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Lune_Hair_DoubleBun.T_UI_Lune_Hair_DoubleBun",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Braid_Description",
+          "SourceString": "A haircut for Lune.",
+          "LocalizedString": "A haircut for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceLune_DoubleBun'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceLune_DoubleBun.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMaelle_DoubleBun_Long": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMaelle_DoubleBun_Long",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBun_Long_Name",
+          "SourceString": "Long Double Bun",
+          "LocalizedString": "Long Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_DoubleBunLong.T_UI_Maelle_Hair_DoubleBunLong",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBraid_Description",
+          "SourceString": "A haircut for Maelle.",
+          "LocalizedString": "A haircut for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMaelle_DoubleBunLong'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMaelle_DoubleBunLong.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMaelle_DoubleBun": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMaelle_DoubleBun",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBun_Name",
+          "SourceString": "Double Bun",
+          "LocalizedString": "Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_DoubleBun.T_UI_Maelle_Hair_DoubleBun",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBraid_Description",
+          "SourceString": "A haircut for Maelle.",
+          "LocalizedString": "A haircut for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMaelle_DoubleBun'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMaelle_DoubleBun.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceVerso_BunBraid": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceVerso_BunBraid",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_BunBraid_Name",
+          "SourceString": "Bun Braid",
+          "LocalizedString": "Bun Braid"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Verso_Hair_BunBraid.T_UI_Verso_Hair_BunBraid",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Samourai_Description",
+          "SourceString": "A haircut for Verso.",
+          "LocalizedString": "A haircut for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceVerso_BunBraid'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceVerso_BunBraid.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceGustave_BunBraid": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceGustave_BunBraid",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_BunBraid_Name",
+          "SourceString": "Bun Braid",
+          "LocalizedString": "Bun Braid"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Gustave_Hair_BunBraid.T_UI_Gustave_Hair_BunBraid",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Flowers_Description",
+          "SourceString": "A haircut for Gustave.",
+          "LocalizedString": "A haircut for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceGustave_BunBraid'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceGustave_BunBraid.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_FrenchBob": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_FrenchBob",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_FrenchBob_Name",
+          "SourceString": "French Bob",
+          "LocalizedString": "French Bob"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_FrenchBob.T_UI_Monoco_Hair_FrenchBob",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_FrenchBob'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_FrenchBob.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_DoubleBun": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_DoubleBun",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_DoubleBun_Name",
+          "SourceString": "Double Bun",
+          "LocalizedString": "Double Bun"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_DoubleBun.T_UI_Monoco_Hair_DoubleBun",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_DoubleBun'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_DoubleBun.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceLune_Simon": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceLune_Simon",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Simon_Name",
+          "SourceString": "Simon",
+          "LocalizedString": "Simon"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Lune_Hair_Simon.T_UI_Lune_Hair_Simon",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Braid_Description",
+          "SourceString": "A haircut for Lune.",
+          "LocalizedString": "A haircut for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceLune_Simon'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceLune_Simon.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceSciel_Simon": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceSciel_Simon",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Simon_Name",
+          "SourceString": "Simon",
+          "LocalizedString": "Simon"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Sciel_Hair_Simon.T_UI_Sciel_Hair_Simon",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Flowers_Description",
+          "SourceString": "A haircut for Sciel.",
+          "LocalizedString": "A haircut for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceSciel_Simon'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceSciel_Simon.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMaelle_Simon": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMaelle_Simon",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_Simon_Name",
+          "SourceString": "Simon",
+          "LocalizedString": "Simon"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_Simon.T_UI_Maelle_Hair_Simon",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBraid_Description",
+          "SourceString": "A haircut for Maelle.",
+          "LocalizedString": "A haircut for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMaelle_Simon'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMaelle_Simon.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceVerso_Simon": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceVerso_Simon",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Simon_Name",
+          "SourceString": "Simon",
+          "LocalizedString": "Simon"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Verso_Hair_Simon.T_UI_Verso_Hair_Simon",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Samourai_Description",
+          "SourceString": "A haircut for Verso.",
+          "LocalizedString": "A haircut for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceVerso_Simon'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceVerso_Simon.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceGustave_Simon": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceGustave_Simon",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Simon_Name",
+          "SourceString": "Simon",
+          "LocalizedString": "Simon"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Gustave_Hair_Simon.T_UI_Gustave_Hair_Simon",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Flowers_Description",
+          "SourceString": "A haircut for Gustave.",
+          "LocalizedString": "A haircut for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceGustave_Simon'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceGustave_Simon.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_Chic.T_UI_Monoco_Hair_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinSciel_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinSciel_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinSciel_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Sciel_Skin_Chic.T_UI_Sciel_Skin_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinSciel_FlowerSuit_Description",
+          "SourceString": "An outfit for Sciel.",
+          "LocalizedString": "An outfit for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinSciel_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinSciel_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinGustave_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinGustave_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Gustave_Skin_Chic.T_UI_Gustave_Skin_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_FlowerSuit_Description",
+          "SourceString": "An outfit for Gustave.",
+          "LocalizedString": "An outfit for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinGustave_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinGustave_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinVerso_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinVerso_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Verso_Skin_Chic.T_UI_Verso_Skin_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_FlowerSuit_Description",
+          "SourceString": "An outfit for Verso.",
+          "LocalizedString": "An outfit for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinVerso_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinVerso_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMaelle_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMaelle_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMaelle_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Maelle_Skin_Chic.T_UI_Maelle_Skin_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMaelle_Alicia_Description",
+          "SourceString": "An outfit for Maelle.",
+          "LocalizedString": "An outfit for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMaelle_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMaelle_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMonoco_Chic": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMonoco_Chic",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_Chic_Name",
+          "SourceString": "Chic",
+          "LocalizedString": "Chic"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Monoco_Skin_Chic.T_UI_Monoco_Skin_Chic",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_FlowerSuit_Description",
+          "SourceString": "An outfit for Monoco.",
+          "LocalizedString": "An outfit for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMonoco_Chic'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMonoco_Chic.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinLune_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinLune_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinLune_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Lune_Skin_Esquie.T_UI_Lune_Skin_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinLune_FlowerSuit_Description",
+          "SourceString": "An outfit for Lune.",
+          "LocalizedString": "An outfit for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinLune_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinLune_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinSciel_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinSciel_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinSciel_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Sciel_Skin_Esquie.T_UI_Sciel_Skin_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinSciel_FlowerSuit_Description",
+          "SourceString": "An outfit for Sciel.",
+          "LocalizedString": "An outfit for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinSciel_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinSciel_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinGustave_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinGustave_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Gustave_Skin_Esquie.T_UI_Gustave_Skin_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_FlowerSuit_Description",
+          "SourceString": "An outfit for Gustave.",
+          "LocalizedString": "An outfit for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinGustave_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinGustave_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinVerso_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinVerso_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Verso_Skin_Esquie.T_UI_Verso_Skin_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_FlowerSuit_Description",
+          "SourceString": "An outfit for Verso.",
+          "LocalizedString": "An outfit for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinVerso_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinVerso_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMaelle_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMaelle_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMaelle_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Maelle_Skin_Esquie.T_UI_Maelle_Skin_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMaelle_Alicia_Description",
+          "SourceString": "An outfit for Maelle.",
+          "LocalizedString": "An outfit for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMaelle_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMaelle_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMonoco_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMonoco_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Monoco_Skin_Esquie.T_UI_Monoco_Skin_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_FlowerSuit_Description",
+          "SourceString": "An outfit for Monoco.",
+          "LocalizedString": "An outfit for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMonoco_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMonoco_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinLune_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinLune_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinLune_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Lune_Skin_Osquio.T_UI_Lune_Skin_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinLune_FlowerSuit_Description",
+          "SourceString": "An outfit for Lune.",
+          "LocalizedString": "An outfit for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinLune_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinLune_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinSciel_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinSciel_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinSciel_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Sciel_Skin_Osquio.T_UI_Sciel_Skin_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinSciel_FlowerSuit_Description",
+          "SourceString": "An outfit for Sciel.",
+          "LocalizedString": "An outfit for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinSciel_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinSciel_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinGustave_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinGustave_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Gustave_Skin_Osquio.T_UI_Gustave_Skin_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_FlowerSuit_Description",
+          "SourceString": "An outfit for Gustave.",
+          "LocalizedString": "An outfit for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinGustave_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinGustave_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinVerso_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinVerso_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Verso_Skin_Osquio.T_UI_Verso_Skin_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_FlowerSuit_Description",
+          "SourceString": "An outfit for Verso.",
+          "LocalizedString": "An outfit for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinVerso_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinVerso_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMaelle_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMaelle_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMaelle_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Maelle_Skin_Osquio.T_UI_Maelle_Skin_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMaelle_Alicia_Description",
+          "SourceString": "An outfit for Maelle.",
+          "LocalizedString": "An outfit for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMaelle_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMaelle_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMonoco_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMonoco_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Monoco_Skin_Osquio.T_UI_Monoco_Skin_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_FlowerSuit_Description",
+          "SourceString": "An outfit for Monoco.",
+          "LocalizedString": "An outfit for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMonoco_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMonoco_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_Esquie.T_UI_Monoco_Hair_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_Osquio.T_UI_Monoco_Hair_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceLune_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceLune_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Lune_Hair_Esquie.T_UI_Lune_Hair_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Braid_Description",
+          "SourceString": "A haircut for Lune.",
+          "LocalizedString": "A haircut for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceLune_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceLune_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceSciel_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceSciel_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Sciel_Hair_Esquie.T_UI_Sciel_Hair_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Flowers_Description",
+          "SourceString": "A haircut for Sciel.",
+          "LocalizedString": "A haircut for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceSciel_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceSciel_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceGustave_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceGustave_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Gustave_Hair_Esquie.T_UI_Gustave_Hair_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Flowers_Description",
+          "SourceString": "A haircut for Gustave.",
+          "LocalizedString": "A haircut for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceGustave_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceGustave_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMaelle_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMaelle_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_Esquie.T_UI_Maelle_Hair_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBraid_Description",
+          "SourceString": "A haircut for Maelle.",
+          "LocalizedString": "A haircut for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMaelle_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMaelle_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceVerso_Esquie": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceVerso_Esquie",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Esquie_Name",
+          "SourceString": "Esquie",
+          "LocalizedString": "Esquie"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Verso_Esquie.T_UI_Verso_Esquie",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Samourai_Description",
+          "SourceString": "A haircut for Verso.",
+          "LocalizedString": "A haircut for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceVerso_Esquie'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceVerso_Esquie.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceLune_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceLune_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Lune_Hair_Osquio.T_UI_Lune_Hair_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceLune_Braid_Description",
+          "SourceString": "A haircut for Lune.",
+          "LocalizedString": "A haircut for Lune."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceLune_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceLune_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceSciel_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceSciel_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Sciel_Hair_Osquio.T_UI_Sciel_Hair_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Flowers_Description",
+          "SourceString": "A haircut for Sciel.",
+          "LocalizedString": "A haircut for Sciel."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceSciel_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceSciel_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceGustave_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceGustave_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceSciel_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Gustave_Hair_Osquio.T_UI_Gustave_Hair_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Flowers_Description",
+          "SourceString": "A haircut for Gustave.",
+          "LocalizedString": "A haircut for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceGustave_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceGustave_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMaelle_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMaelle_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Maelle_Hair_Osquio.T_UI_Maelle_Hair_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_DoubleBraid_Description",
+          "SourceString": "A haircut for Maelle.",
+          "LocalizedString": "A haircut for Maelle."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMaelle_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMaelle_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceVerso_Osquio": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceVerso_Osquio",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Osquio_Name",
+          "SourceString": "Osquio",
+          "LocalizedString": "Osquio"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Verso_Osquio.T_UI_Verso_Osquio",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceVerso_Samourai_Description",
+          "SourceString": "A haircut for Verso.",
+          "LocalizedString": "A haircut for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceVerso_Osquio'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceVerso_Osquio.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinVerso_Visage": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinVerso_Visage",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Enemies_Name.ST_Enemies_Name",
+          "Key": "MF_Axon_Visages",
+          "SourceString": "Visages",
+          "LocalizedString": "Visages"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Verso_Skin_Visage.T_UI_Verso_Skin_Visage",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinVerso_FlowerSuit_Description",
+          "SourceString": "An outfit for Verso.",
+          "LocalizedString": "An outfit for Verso."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinVerso_Visage'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinVerso_Visage.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinGustave_Visage": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinGustave_Visage",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Enemies_Name.ST_Enemies_Name",
+          "Key": "MF_Axon_Visages",
+          "SourceString": "Visages",
+          "LocalizedString": "Visages"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Gustave_Skin_Visage.T_UI_Gustave_Skin_Visage",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinGustave_FlowerSuit_Description",
+          "SourceString": "An outfit for Gustave.",
+          "LocalizedString": "An outfit for Gustave."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinGustave_Visage'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinGustave_Visage.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "SkinMonoco_Baguette": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "SkinMonoco_Baguette",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Baguette_Name",
+          "SourceString": "Baguette",
+          "LocalizedString": "Baguette"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Skin/T_UI_Monoco_Baguette.T_UI_Monoco_Baguette",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_SkinMonoco_FlowerSuit_Description",
+          "SourceString": "An outfit for Monoco.",
+          "LocalizedString": "An outfit for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterSkin_C'DA_CharacterCustomization_SkinMonoco_Baguette'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Skins/DA_CharacterCustomization_SkinMonoco_Baguette.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_Simon": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_Simon",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMaelle_Simon_Name",
+          "SourceString": "Simon",
+          "LocalizedString": "Simon"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_Simon.T_UI_Monoco_Hair_Simon",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_Simon'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_Simon.0"
+        },
+        "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
+        "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "Weapon_SkeletalMesh_92_39AC3B454F3982F34602CFBE066CA846": {
+          "AssetPathName": "",
+          "SubPathString": ""
+        },
+        "HideInInventory_105_28F500C94EA8D5C6632F7E8E4A85586E": true,
+        "HideInLootPopup_107_333FB0CB4314A0D9E40A7F8480A5686A": false
+      },
+      "FaceMonoco_Baguette": {
+        "Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA": "FaceMonoco_Baguette",
+        "Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceGustave_Baguette_Name",
+          "SourceString": "Baguette",
+          "LocalizedString": "Baguette"
+        },
+        "Item_Type_88_2F24F8FB4235429B4DE1399DBA533C78": "E_jRPG_ItemType::NewEnumerator16",
+        "Item_Subtype_87_0CE0028F4D632385B61EDABBFBDF5360": "E_jRPG_ItemSubtype::NewEnumerator20",
+        "Item_Rarity_86_4D9579394454700B6BC0ABAECA0714C8": "E_jRPG_ItemRarity::NewEnumerator5",
+        "Item_Icon_95_4D742A7E46F761161F9173969C69F468": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Wardrobe/Hair/T_UI_Monoco_Hair_Baguette.T_UI_Monoco_Hair_Baguette",
+          "SubPathString": ""
+        },
+        "ItemDescription_32_0A978AFB4AB4B316342DD6A72ACDD4E1": {
+          "TableId": "/Game/StringTables/Gameplay/ST_Items.ST_Items",
+          "Key": "ITEM_FaceMonoco_Flowers_Description",
+          "SourceString": "A haircut for Monoco.",
+          "LocalizedString": "A haircut for Monoco."
+        },
+        "Item_BuyValue_83_87DF330B4B2375397869D6BFDB7C2DED": 10,
+        "Item_SellValue_84_23F9177348231971507F9494D0E3DA1D": 5,
+        "Consumable_CanBeUsedInBattle?_74_5EA5813946B70E3FD9333289C000D538": false,
+        "Consumable_CanBeUsedInInventory?_75_55B1EE634A155E1A8A4F439A77864154": false,
+        "Consumable_MaxStackAmount_76_2DD073774D235ED7EE5C8F99817D7FFA": 1,
+        "Consumable_TargetingType_79_04B50DFD410E7F51F4E5E1A128555D0B": "E_jRPG_TargetingType::NewEnumerator2",
+        "Pictos_ItemStats_91_229F4A00415AB214191377B73987FF7B": [],
+        "Pictos_Data_103_EE44D66B4E4F16A7FD44FF9F25777CF4": {
+          "ObjectName": "BP_DataAsset_Item_CharacterFace_C'DA_CharacterCustomization_FaceMonoco_Baguette'",
+          "ObjectPath": "/Game/Gameplay/CharacterCustomization/Data/Items/Faces/DA_CharacterCustomization_FaceMonoco_Baguette.0"
         },
         "Pictos_UnlockedPassiveEffects_80_3D9B4EBE450583A832342793077EFC06": [],
         "Pictos_SkinTexture_94_B9C9F0E345B3A0DF3E5F5D899B0C1342": {
