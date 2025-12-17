@@ -2448,7 +2448,7 @@
         "DEBUG_StartSpawnPointTag_77_ADC69B8444CFACE5A732B9AC7D77851F": {
           "TagName": "Level.SpawnPoint.Debug.Editor"
         },
-        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[A1] Dark Shores",
+        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[SIDE] Dark Shores",
         "DEPRECATED_DEBUG_StartSpawnPointID_74_630DC61549C1B3613B9AEDBE922B51EF": "Spawn1",
         "DEPRECATED_SpawnPointName_63_2B1DEABE4D325DD3BA50E480EC416AE9": "None",
         "DEPRECATED_SubAreaNames_62_1D27334B468095EEBEB4629136DB3E03": []
@@ -2534,7 +2534,7 @@
         "DEBUG_StartSpawnPointTag_77_ADC69B8444CFACE5A732B9AC7D77851F": {
           "TagName": "Level.SpawnPoint.Debug.Editor"
         },
-        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[SMALL] Twilight Sanctuary",
+        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[SIDE] Twilight Sanctuary",
         "DEPRECATED_DEBUG_StartSpawnPointID_74_630DC61549C1B3613B9AEDBE922B51EF": "Spawn1",
         "DEPRECATED_SpawnPointName_63_2B1DEABE4D325DD3BA50E480EC416AE9": "Spawn1",
         "DEPRECATED_SubAreaNames_62_1D27334B468095EEBEB4629136DB3E03": []
@@ -2636,7 +2636,7 @@
           "LocalizedString": "Endless Tower"
         },
         "LevelIcon_88_426A5B30471F251930103DA7BD1FE412": {
-          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Levels/T_UI_Level_SideLevel_CleasTowerEntrance.T_UI_Level_SideLevel_CleasTowerEntrance",
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Levels/T_UI_Level_SideLevel_CleasTower.T_UI_Level_SideLevel_CleasTower",
           "SubPathString": ""
         },
         "LevelMinimapIcon_91_2A0955C545BA24A90CDDB18BA434497A": {
@@ -2661,7 +2661,7 @@
         "DEBUG_StartSpawnPointTag_77_ADC69B8444CFACE5A732B9AC7D77851F": {
           "TagName": "Level.SpawnPoint.Debug.Editor"
         },
-        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "",
+        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[SIDE] Clea's Tower Entrance",
         "DEPRECATED_DEBUG_StartSpawnPointID_74_630DC61549C1B3613B9AEDBE922B51EF": "Spawn1",
         "DEPRECATED_SpawnPointName_63_2B1DEABE4D325DD3BA50E480EC416AE9": "Spawn1",
         "DEPRECATED_SubAreaNames_62_1D27334B468095EEBEB4629136DB3E03": []
@@ -2688,7 +2688,7 @@
           "LocalizedString": "Endless Tower"
         },
         "LevelIcon_88_426A5B30471F251930103DA7BD1FE412": {
-          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Levels/T_UI_Level_SideLevel_CleasTower.T_UI_Level_SideLevel_CleasTower",
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Levels/T_UI_Level_SideLevel_CleasTowerEntrance.T_UI_Level_SideLevel_CleasTowerEntrance",
           "SubPathString": ""
         },
         "LevelMinimapIcon_91_2A0955C545BA24A90CDDB18BA434497A": {
@@ -2725,7 +2725,7 @@
         "DEBUG_StartSpawnPointTag_77_ADC69B8444CFACE5A732B9AC7D77851F": {
           "TagName": "Level.SpawnPoint.Debug.Editor"
         },
-        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "",
+        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[SIDE] Clea's Tower",
         "DEPRECATED_DEBUG_StartSpawnPointID_74_630DC61549C1B3613B9AEDBE922B51EF": "Spawn1",
         "DEPRECATED_SpawnPointName_63_2B1DEABE4D325DD3BA50E480EC416AE9": "Spawn1",
         "DEPRECATED_SubAreaNames_62_1D27334B468095EEBEB4629136DB3E03": []
@@ -2800,6 +2800,136 @@
             }
           }
         ]
+      },
+      "SideLevel_VersosDraft": {
+        "LevelAssetName_85_BF09694C41CC0444295731A40341A5F9": "Level_Side_VersosDraft",
+        "LevelType_37_EE4A371F4388B884A49327A9EEC1B9F0": "ELevelType::NewEnumerator0",
+        "LevelParameters_61_6A9E688E455B46E34C160DBD6B2455C6": {
+          "Audio_5_0CBE0BCA47AC907980EE6CB15CB4E2FC": {
+            "Music_2_7C41F1EF46DD5B98B0ADE2BB0F735E2D": null,
+            "AudioTriggerParameterName_5_2102E9864AF1C0FAD7B47EB4C3E3DE9F": "None"
+          },
+          "ScreenSpaceFogScattering_2_BD33E48E415D0304D10FA983353184C8": {
+            "Enabled_2_1B608E084F7F4792E5EFAA9052E60875": true,
+            "PassAmount_8_AF7A0B9C4F8F7D95425FA188AC22E404": 8,
+            "Radius_10_E2EAECF246BBAA7AC6A676BF6EBF078D": 0.85,
+            "Intensity_12_2074BABF48A2D3BE5B73A78213B57EBD": 1.0
+          }
+        },
+        "DisplayName_10_D3213B974EE2CBDD44757B978CD84FD8": {
+          "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+          "Key": "LEVEL_SideLevel_VersosDraft",
+          "SourceString": "Verso's Drafts",
+          "LocalizedString": "Verso's Drafts"
+        },
+        "LevelIcon_88_426A5B30471F251930103DA7BD1FE412": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Levels/T_UI_Level_SideLevel_VersosDrafts.T_UI_Level_SideLevel_VersosDrafts",
+          "SubPathString": ""
+        },
+        "LevelMinimapIcon_91_2A0955C545BA24A90CDDB18BA434497A": {
+          "AssetPathName": "/Game/UI/Resources/Textures/MiniMap/Level_POI/T_UI_Level_POI_VersosDrafts.T_UI_Level_POI_VersosDrafts",
+          "SubPathString": ""
+        },
+        "MainSpawnPoint_72_5C7B345E44E5B2867FCE0687BB65019F": {
+          "TagName": "Level.SpawnPoint.VersosDraft.Entry"
+        },
+        "SubAreas_73_B59A02D5470428064B9B03A1A3F5F82C": [
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.Entry"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_Entrance",
+              "SourceString": "Entrance",
+              "LocalizedString": "Entrance"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.Exit"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_Exit",
+              "SourceString": "Exit",
+              "LocalizedString": "Exit"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.CandyLand"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_CandyLand",
+              "SourceString": "Candy Land",
+              "LocalizedString": "Candy Land"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.GooglyEyesDoor"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_ReveriePath",
+              "SourceString": "Reverie Path",
+              "LocalizedString": "Reverie Path"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.LicornapiedStation"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_LicornapiedsStation",
+              "SourceString": "Licornapieds Station",
+              "LocalizedString": "Licornapieds Station"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.OpenField"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_OpenPlayground",
+              "SourceString": "Open Playground",
+              "LocalizedString": "Open Playground"
+            }
+          },
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.VersosDraft.GestralBaths"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SideLevel_VersosDraft_GestralBaths",
+              "SourceString": "Gestral Baths",
+              "LocalizedString": "Gestral Baths"
+            }
+          }
+        ],
+        "ScalingMinLevel_46_24595A4C47B1576C3770CA98815E66DD": 86,
+        "ScalingMaxLevel_45_389D00474B3DAD3D274A2FB0BDA15EA9": 86,
+        "MainSpawnPointOnWorldMap_80_1975CCE74EA671FE2C7363A383672E31": {
+          "TagName": "Level.SpawnPoint.WorldMap.VersosDraftEntry"
+        },
+        "LevelCompassYawOffset_94_8B89A37147BF981A110ACDA8120C46D2": -175.0,
+        "DEBUG_ReferenceProgressionSave_29_FBB4F74D449FAB2CD01E5C99A62FEF5E": {
+          "AssetPathName": "/Game/Gameplay/DebugContent/Saves/DA_DebugSaveGame_Level_80.DA_DebugSaveGame_Level_80",
+          "SubPathString": ""
+        },
+        "LevelStartGameAction_49_B3E9B26C4EEC004EF86889BF5E3A8896": null,
+        "DEBUG_StartSpawnPointTag_77_ADC69B8444CFACE5A732B9AC7D77851F": {
+          "TagName": "Level.SpawnPoint.Debug.Editor"
+        },
+        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "[SIDE] Verso's Draft",
+        "DEPRECATED_DEBUG_StartSpawnPointID_74_630DC61549C1B3613B9AEDBE922B51EF": "Spawn1",
+        "DEPRECATED_SpawnPointName_63_2B1DEABE4D325DD3BA50E480EC416AE9": "None",
+        "DEPRECATED_SubAreaNames_62_1D27334B468095EEBEB4629136DB3E03": []
       },
       "MiniLevel_Spring": {
         "LevelAssetName_85_BF09694C41CC0444295731A40341A5F9": "Level_Mini_SpringMeadows",
@@ -4817,6 +4947,70 @@
         "LevelCompassYawOffset_94_8B89A37147BF981A110ACDA8120C46D2": 35.0,
         "DEBUG_ReferenceProgressionSave_29_FBB4F74D449FAB2CD01E5C99A62FEF5E": {
           "AssetPathName": "/Game/Gameplay/DebugContent/Saves/DA_DebugSaveGame_Level_45_Monolith_End.DA_DebugSaveGame_Level_45_Monolith_End",
+          "SubPathString": ""
+        },
+        "LevelStartGameAction_49_B3E9B26C4EEC004EF86889BF5E3A8896": null,
+        "DEBUG_StartSpawnPointTag_77_ADC69B8444CFACE5A732B9AC7D77851F": {
+          "TagName": "Level.SpawnPoint.Debug.Editor"
+        },
+        "DEBUG_DisplayName_53_9F413247464FAA247960E2ACE5B41200": "",
+        "DEPRECATED_DEBUG_StartSpawnPointID_74_630DC61549C1B3613B9AEDBE922B51EF": "Entrance1",
+        "DEPRECATED_SpawnPointName_63_2B1DEABE4D325DD3BA50E480EC416AE9": "Entrance1",
+        "DEPRECATED_SubAreaNames_62_1D27334B468095EEBEB4629136DB3E03": []
+      },
+      "SmallLevel_EsquieRealCousin": {
+        "LevelAssetName_85_BF09694C41CC0444295731A40341A5F9": "Level_Small_EsquieRealCousin",
+        "LevelType_37_EE4A371F4388B884A49327A9EEC1B9F0": "ELevelType::NewEnumerator0",
+        "LevelParameters_61_6A9E688E455B46E34C160DBD6B2455C6": {
+          "Audio_5_0CBE0BCA47AC907980EE6CB15CB4E2FC": {
+            "Music_2_7C41F1EF46DD5B98B0ADE2BB0F735E2D": null,
+            "AudioTriggerParameterName_5_2102E9864AF1C0FAD7B47EB4C3E3DE9F": "None"
+          },
+          "ScreenSpaceFogScattering_2_BD33E48E415D0304D10FA983353184C8": {
+            "Enabled_2_1B608E084F7F4792E5EFAA9052E60875": true,
+            "PassAmount_8_AF7A0B9C4F8F7D95425FA188AC22E404": 8,
+            "Radius_10_E2EAECF246BBAA7AC6A676BF6EBF078D": 0.85,
+            "Intensity_12_2074BABF48A2D3BE5B73A78213B57EBD": 1.0
+          }
+        },
+        "DisplayName_10_D3213B974EE2CBDD44757B978CD84FD8": {
+          "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+          "Key": "LEVEL_SmallLevel_EsquieRealCousin",
+          "SourceString": "Root of All Evil",
+          "LocalizedString": "Root of All Evil"
+        },
+        "LevelIcon_88_426A5B30471F251930103DA7BD1FE412": {
+          "AssetPathName": "/Game/UI/Resources/Textures/Icons/Levels/T_UI_Level_SmallLevel_RootOfAllEvil.T_UI_Level_SmallLevel_RootOfAllEvil",
+          "SubPathString": ""
+        },
+        "LevelMinimapIcon_91_2A0955C545BA24A90CDDB18BA434497A": {
+          "AssetPathName": "/Game/UI/Resources/Textures/MiniMap/Level_POI/T_UI_Level_POI_VersosDrafts.T_UI_Level_POI_VersosDrafts",
+          "SubPathString": ""
+        },
+        "MainSpawnPoint_72_5C7B345E44E5B2867FCE0687BB65019F": {
+          "TagName": "Level.SpawnPoint.EsquieRealCousin.Entry"
+        },
+        "SubAreas_73_B59A02D5470428064B9B03A1A3F5F82C": [
+          {
+            "Key": {
+              "TagName": "Level.SpawnPoint.EsquieRealCousin.MainField"
+            },
+            "Value": {
+              "TableId": "/Game/StringTables/Gameplay/ST_LevelData.ST_LevelData",
+              "Key": "SUBAREA_SmallLevel_EsquieRealCousin_Entrance",
+              "SourceString": "Main Field",
+              "LocalizedString": "Main Field"
+            }
+          }
+        ],
+        "ScalingMinLevel_46_24595A4C47B1576C3770CA98815E66DD": 99,
+        "ScalingMaxLevel_45_389D00474B3DAD3D274A2FB0BDA15EA9": 99,
+        "MainSpawnPointOnWorldMap_80_1975CCE74EA671FE2C7363A383672E31": {
+          "TagName": "Level.SpawnPoint.WorldMap.VersosDraftEntry"
+        },
+        "LevelCompassYawOffset_94_8B89A37147BF981A110ACDA8120C46D2": 35.0,
+        "DEBUG_ReferenceProgressionSave_29_FBB4F74D449FAB2CD01E5C99A62FEF5E": {
+          "AssetPathName": "/Game/Gameplay/DebugContent/Saves/DA_DebugSaveGame_Level_80.DA_DebugSaveGame_Level_80",
           "SubPathString": ""
         },
         "LevelStartGameAction_49_B3E9B26C4EEC004EF86889BF5E3A8896": null,
