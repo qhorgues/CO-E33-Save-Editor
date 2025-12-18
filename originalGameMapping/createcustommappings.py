@@ -197,7 +197,7 @@ def genweaponmapping():
         if charname not in output_data["Weapons"]:
             output_data["Weapons"][charname] = {}
         weaponname = curritem.get("Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA").get("SourceString")
-        if weaponname in unobtainableweapons:
+        if weaponname in unobtainableweapons or curritem.get("Item_HardcodedName_90_C7F763B74AAB28EF890A66854D7D95AA") == 'VD_Verso_2':
             weaponname = weaponname+"*"
         if weaponname == None:
             weaponname = curritem.get("Item_DisplayName_89_41C0C54E4A55598869C84CA3B5B5DECA").get("CultureInvariantString")+"**"
@@ -459,14 +459,14 @@ def genbasecharactersavemapping():
 
 
 
-gengrandientskillmapping()
-genmonocoskillsmapping()
-genquestitemsmapping()
+# gengrandientskillmapping()
+# genmonocoskillsmapping()
+# genquestitemsmapping()
 genweaponmapping()    
-genjournalsmapping()
-genpictomapping()
-genskinmapping()
-genmusicdiskmapping()
-#genmanordoormapping()
-genflagmapping()
-genbasecharactersavemapping()
+# genjournalsmapping()
+# genpictomapping()
+# genskinmapping()
+# genmusicdiskmapping()
+# #genmanordoormapping()
+# genflagmapping()
+# genbasecharactersavemapping()
