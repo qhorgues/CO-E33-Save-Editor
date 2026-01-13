@@ -183,12 +183,13 @@
               # Nettoyage
           kill $FRONT_PID || true
         '';
-        
+
         apps = pkgs.symlinkJoin {
           name = "CO-E33 Save Editor";
-          buildInputs = [ pkgs.makeWrapper ];
+          paths = [ launcher ];
           postBuild = ''
             mkdir -p $out/share/applications
+
             cat > $out/share/applications/CO-E33_Save_Editor.desktop << EOF
             [Desktop Entry]
             Type=Application
