@@ -183,15 +183,27 @@
               # Nettoyage
           kill $FRONT_PID || true
         '';
+        
+        apps = pkgs.symlinkJoin {
+          name = "CO-E33 Save Editor";
+          buildInputs = [ pkgs.makeWrapper ];
+          postBuild = ''
+            mkdir -p $out/share/applications
+            cat > $out/share/applications/CO-E33_Save_Editor.desktop << EOF
+            [Desktop Entry]
+            Type=Application
+            Name=Clair Obscur: Expedition 33 Save Editor
+            Name[fr]=Clair Obscur: Expedition 33 Éditeur de sauvegarde
+            Comment=Éditeur de sauvegarde pour le jeu Clair Obscur: Expedition 33
+            Exec=${launcher}/bin/CO-E33_Save_Editor
+            Icon=${frontend}/dist/iconsidebar/btnHome.png
+            Terminal=false
+            Categories=Games
+            EOF
+          '';
+        };
 
       in {
-        packages = {
-          default = launcher;
-        };
-
-        apps.default = {
-          type = "app";
-          program = "${launcher}/bin/CO-E33_Save_Editor";
-        };
+        packages.default = apps;
       });
 }
