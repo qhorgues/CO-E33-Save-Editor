@@ -169,28 +169,29 @@
           };
         });
 
+        launcher = pkgs.writeShellScriptBin "CO-E33_Save_Editor" ''
+          #!${pkgs.bash}/bin/bash
+          set -e
+
+          # Lancer le frontend statique
+          ${pkgs.nodePackages.http-server}/bin/http-server ${frontend}/dist -p 1420 &
+          FRONT_PID=$!
+
+          # Lancer l'app Tauri
+          ${tauri-app}/bin/CO-E33_Save_Editor
+
+              # Nettoyage
+          kill $FRONT_PID || true
+        '';
+
       in {
         packages = {
-          default = tauri-app;
-          frontend = frontend;
+          default = launcher;
         };
 
         apps.default = {
           type = "app";
-          program = "${pkgs.writeShellScriptBin "CO-E33_Save_Editor" ''
-            #!${pkgs.bash}/bin/bash
-            set -e
-
-            # Lancer le frontend statique
-            ${pkgs.nodePackages.http-server}/bin/http-server ${frontend}/dist -p 1420 &
-            FRONT_PID=$!
-
-            # Lancer l'app Tauri
-            ${tauri-app}/bin/CO-E33_Save_Editor
-
-                # Nettoyage
-            kill $FRONT_PID || true
-          ''}/bin/CO-E33_Save_Editor";
+          program = "${launcher}/bin/CO-E33_Save_Editor";
         };
       });
 }
