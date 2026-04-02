@@ -10,7 +10,7 @@
       "x86_64-linux"
       "aarch64-linux"
       "i686-linux"
-      "x86_64-darwin" 
+      "x86_64-darwin"
       "aarch64-darwin"
     ] (system:
       let
@@ -100,12 +100,8 @@
           dontStrip = true;
         };
 
-        # Construire les dépendances Rust
-        cargoArtifacts = craneLib.buildDepsOnly commonArgs;
-
-        # Construire l'application Tauri
         tauri-app = craneLib.buildPackage (commonArgs // {
-          inherit cargoArtifacts;
+          cargoArtifacts = null;
 
           preBuild = ''
             # Tauri s'attend à trouver le frontend dans ../dist
@@ -187,7 +183,7 @@
         '';
 
         apps = pkgs.symlinkJoin {
-          name = "CO-E33 Save Editor";
+          name = "CO-E33_Save_Editor";
           paths = [ launcher ];
           postBuild = ''
             mkdir -p $out/share/applications
@@ -208,5 +204,9 @@
 
       in {
         packages.default = apps;
+        apps.default = {
+          type = "app";
+          program = "${launcher}/bin/CO-E33_Save_Editor";
+        };
       });
 }
