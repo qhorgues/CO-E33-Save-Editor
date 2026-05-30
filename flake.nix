@@ -51,7 +51,6 @@
 
           nativeBuildInputs = with pkgs; [
             nodejs
-            nodePackages.npm
             pnpm
             typescript
           ];
@@ -172,7 +171,7 @@
           set -e
 
           # Lancer le frontend statique
-          ${pkgs.nodePackages.http-server}/bin/http-server ${frontend}/dist -p 1420 &
+          ${pkgs.http-server}/bin/http-server ${frontend}/dist -p 1420 &
           FRONT_PID=$!
 
           # Lancer l'app Tauri
