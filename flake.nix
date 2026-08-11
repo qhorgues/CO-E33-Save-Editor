@@ -53,6 +53,7 @@
             nodejs
             pnpm
             typescript
+            jq
           ];
 
           buildPhase = ''
@@ -61,6 +62,11 @@
 
             export SSL_CERT_FILE=${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
             export NODE_EXTRA_CA_CERTS=${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
+
+            jq '.pnpm.onlyBuiltDependencies = ((.pnpm.onlyBuiltDependencies // []) + ["esbuild"] | unique)' \
+              package.json > package.json.tmp
+            mv package.json.tmp package.json
+
             pnpm install --frozen-lockfile
             pnpm run build
           '';
@@ -72,8 +78,7 @@
 
           outputHashMode = "recursive";
           outputHashAlgo = "sha256";
-
-          outputHash = "sha256-Ts/XBYxkgSPl0nmg0/1HnRiKzZHF3KavKQfvxksNtCQ=";
+          outputHash = "sha256-Jq+p9MnzgsuslRS5FJxcaqp1g5Cma9MH7SqXdhYe/RU=";
 
           meta = with pkgs.lib; {
             description = "CO-E33 Save Editor Frontend";
