@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-25.11";
+    nixpkgs.url = "github:nixos/nixpkgs?ref=nixos-26.05";
     crane.url = "github:ipetkov/crane";
     flake-utils.url = "github:numtide/flake-utils";
   };
@@ -16,6 +16,7 @@
       let
         pkgs = import nixpkgs { inherit system; };
         craneLib = crane.mkLib pkgs;
+        pnpm = pkgs.pnpm_11;
 
         # Dépendances communes
         commonBuildInputs = with pkgs; [
@@ -24,7 +25,6 @@
           libsoup_3
           webkitgtk_4_1
           librsvg
-          typescript
         ];
 
         commonNativeBuildInputs = with pkgs; [
@@ -41,50 +41,46 @@
           xdg-utils
         ];
 
-        # Construire le frontend avec mkDerivation et FOD
-        # Plus simple et fonctionne avec n'importe quel lockfile
-        frontend = pkgs.stdenv.mkDerivation {
+        # Construire le frontend avec fetchPnpmDeps + pnpmConfigHook (FOD sur le store pnpm uniquement)
+        frontend = pkgs.stdenv.mkDerivation (finalAttrs: {
           pname = "co-e33-save-editor-frontend";
           version = "2.0.1";
 
           src = ./.;
 
-          nativeBuildInputs = with pkgs; [
-            nodejs
+          nativeBuildInputs = [
+            pkgs.nodejs
             pnpm
-            typescript
-            jq
+            pkgs.pnpmConfigHook
           ];
 
+          pnpmDeps = pkgs.fetchPnpmDeps {
+            inherit (finalAttrs) pname version src;
+            inherit pnpm;
+            fetcherVersion = 4;
+            hash = "sha256-7HjeM3cXUXxuVFzymGBb3KlZrLcvPpHkSNtMrvXCcW8=";
+          };
+
           buildPhase = ''
-            export HOME=$TMPDIR
-            export npm_config_cache=$TMPDIR/.npm
-
-            export SSL_CERT_FILE=${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
-            export NODE_EXTRA_CA_CERTS=${pkgs.cacert}/etc/ssl/certs/ca-bundle.crt
-
-            jq '.pnpm.onlyBuiltDependencies = ((.pnpm.onlyBuiltDependencies // []) + ["esbuild"] | unique)' \
-              package.json > package.json.tmp
-            mv package.json.tmp package.json
-
-            pnpm install --frozen-lockfile
+            runHook preBuild
             pnpm run build
+            runHook postBuild
           '';
 
           installPhase = ''
+            runHook preInstall
             mkdir -p $out
             cp -r dist $out/
+            runHook postInstall
           '';
 
-          outputHashMode = "recursive";
-          outputHashAlgo = "sha256";
-          outputHash = "sha256-Jq+p9MnzgsuslRS5FJxcaqp1g5Cma9MH7SqXdhYe/RU=";
+          __structuredAttrs = true;
 
           meta = with pkgs.lib; {
             description = "CO-E33 Save Editor Frontend";
             platforms = platforms.linux;
           };
-        };
+        });
 
         # Configuration Cargo pour Tauri
         src = ./src-tauri;
